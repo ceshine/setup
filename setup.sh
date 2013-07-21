@@ -22,3 +22,6 @@ nvm use v0.10.12
 
 # Install uglify-js as a command line app (version 2.x)
 npm install uglify-js -g
+
+# Install Heroku Toolbelt
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
