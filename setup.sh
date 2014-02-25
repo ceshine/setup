@@ -28,9 +28,12 @@ sudo apt-add-repository -y ppa:cassou/emacs
 sudo apt-get update
 sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 
-# 
+# install virtualenvwrapper
 sudo apt-get install -y python-pip python-dev
 sudo pip install virtualenvwrapper
+
+# install scipy stack
+sudo apt-get install -y python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
 # git pull and install dotfiles as well
 cd $HOME
@@ -47,3 +50,4 @@ ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
+
