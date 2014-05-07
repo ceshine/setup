@@ -12,6 +12,8 @@ sudo pip install virtualenvwrapper
 # Install pylint
 sudo apt-get install -y pylint
 
+#Install pymacs
+sudo apt-get install pymacs
 
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
