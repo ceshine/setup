@@ -28,3 +28,6 @@ npm install uglify-js -g
 
 # Install Heroku Toolbelt
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+# Create ssh-key
+ssh-keygen -t rsa
