@@ -9,6 +9,9 @@ sudo apt-get install -y emacs
 sudo apt-get install -y python-pip python-dev
 sudo pip install virtualenvwrapper
 
+# Install pylint
+sudo apt-get install -y pylint
+
 
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
